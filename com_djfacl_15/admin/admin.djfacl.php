@@ -10,6 +10,7 @@
 */
 
 
+
 // controllo che il componente venga chiamato soltanto da joomla
 defined( '_JEXEC' ) or die( 'Restricted access' );
 require_once (JPATH_PLUGINS.DS.'system'.DS.'djflibraries'.DS.'utility.php');
