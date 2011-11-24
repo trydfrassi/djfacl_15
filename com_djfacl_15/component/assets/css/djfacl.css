@@ -1,0 +1,192 @@
+/**
+* @version $Id: component.css 10387 2008-06-03 10:59:16Z pasamio $
+* @copyright Copyright (C) 2005 - 2006 Open Source Matters. All rights reserved.
+* @license GNU/GPL, see LICENSE.php
+* Joomla! is free software. This version may have been modified pursuant
+* to the GNU General Public License, and as distributed it includes or
+* is derivative of works licensed under the GNU General Public License or
+* other free or open source software licenses.
+* See COPYRIGHT.php for copyright notices and details.
+*/
+/**
+ * Joomla! 1.5 Admin template main css file
+ *
+ * @author		Andy Miller <andy.miller@joomla.org>
+ * @package		Joomla
+ * @since		1.5
+ * @version    1.0
+ */
+/* -- General styles ------------------------------ */
+.text_row {
+	width: 294px;
+}
+
+.calendar_row {
+	width: 276px;
+	height: 14px;
+}
+
+.calendar {
+	vertical-align: bottom;
+}
+
+.list_row {
+	width: 297px;
+	position: absolute;
+}
+
+.list_row select:focus {
+	width: 297px;
+}
+
+.list_row select {
+	width: 297px;
+}
+
+.radio_row {
+	
+}
+
+.checkbox_row {
+	
+}
+
+.editor_row {
+	width: 100%;
+}
+
+.key2 {
+	text-align: right;
+	background-color: #f6f6f6;
+	width: 210px;
+	color: #666;
+	font-weight: bold;
+	border-bottom: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9;
+}
+
+.search_box {
+	width: 20%;
+}
+
+.preloader {
+	position: relative;
+	margin-left: 297px;
+}
+
+table {
+	text-align: left;
+	width: 100%;
+}
+
+
+.search-button {
+	width:100%;
+}
+
+.search-label {
+	float:left;
+	
+}
+
+.search-field {
+	float:left;
+	margin-left: 10px;
+	margin-top: 1px;
+	
+}
+
+.search-button-go {
+	float:left;
+	margin-left: 2px;
+	
+}
+
+.text_area {
+	width:288px;
+	height:1px;
+	float:left;
+}
+
+.edit-button{
+	margin-right:14px;
+	width:100%;
+}
+
+.joomla-single-button{
+	float:left;
+	margin-right:10px;
+}
+
+#search {
+    float: both !important;
+    height: 16px !important;
+    margin-right: 0px !important;
+    margin-top: 0px !important; 
+    overflow: hidden;
+    text-align: left !important;
+    width:250px !important;
+}
+
+.rigagrigia {
+margin-top:30px !important;
+margin-bottom:30px !important;
+background-color:#cccccc;
+height:20px;
+	
+}
+
+
+
+
+.select_cate {
+width:400px;
+}
+
+.select_section {
+width:400px;
+}
+
+.blocco-section{
+	
+	margin-top:10px;
+	margin-bottom:30px;
+	width:100%;
+	height:100%;
+}
+.blocco-cate{
+	margin-top:10px;
+	margin-bottom:30px;
+	width:100%;
+	height:100%;
+}
+
+.search_label_section {
+	margin-right: 10px;
+	margin-left:5px;
+	float: left;
+}
+.search_div_section {
+	margin-right: 10px;
+	margin-left: 10px;
+	float: left;
+}
+.search_label_cate {
+	margin-right: 10px;
+	margin-left:5px;
+	float: left;
+}
+
+.admintable2{
+	width:520px;
+}
+
+.calendar_row{
+	height:12px;
+}
+
+.text_row{
+	height:12px;
+	width:298px;
+}
+

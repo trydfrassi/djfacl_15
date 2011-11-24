@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - Djflibraries</name>
+	<author>David Frassi</author>
+	<creationDate>February 2011</creationDate>
+	<copyright>Copyright (C) 2010 - All rights reserved.</copyright>
+	<license>GNU General Public License</license>
+	<authorEmail>info@davidfrassi.it</authorEmail>
+	<authorUrl>http://www.davidfrassi.it</authorUrl>
+	<version>2.7</version>
+	<description>System - Djflibraries</description>
+	<files>
+		<folder plugin="djflibraries">djflibraries</folder>
+	</files>	
+</install>

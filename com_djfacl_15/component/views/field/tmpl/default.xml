@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Article List with Djf Append criteria">
+		<message>
+			<![CDATA[Djf Acl Layout<br>You can create a custom list of articles with new criteria of choice based on Djf Append Typologies]]>
+		</message>
+	</layout>
+	<state><name>Djf Acl Layout</name>
+		<description>You can create a custom list of articles with new criteria of choice based on Djf Append Typologies</description>
+		<params>
+			<param name="sectionid" type="section" label="Section" description="Choose a section..." />
+			<param name="mostra_sez" type="radio" default="0" label="Secion Label" description="Show Section Label">
+      				<option value="1">Yes</option>
+      				<option value="0">No</option>
+    		</param>
+			<param name="catid" type="category" label="Category" description="Choose a category..." />
+			<param name="mostra_catsez" type="radio" default="0" label="Category Label" description="Show Section Category Label">
+      				<option value="1">Yes</option>
+      				<option value="0">No</option>
+    		</param>
+    		<param name="mostra_catdesc" type="radio" default="0" label="Category Description" description="Show Category Description">
+      				<option value="1">Yes</option>
+      				<option value="0">No</option>
+    		</param>
+    		
+    		<param name="filtro_categoria" type="radio" default="0" label="Show Category Filter" description="Show Category Filter">
+      				<option value="1">Yes</option>
+      				<option value="0">No</option>
+    		</param>
+    		
+    		<param name="mostra_tipologia" type="radio" default="0" label="Typology Label" description="Show Typology Label">
+      				<option value="1">Yes</option>
+      				<option value="0">No</option>
+    		</param>
+
+    		
+     		<param name="filtro_tipologia" type="radio" default="0" label="Show Typology Filter" description="Show Typology Filter">
+      				<option value="1">Yes</option>
+      				<option value="0">No</option>
+    		</param>
+    
+    		<param name="date_format" type="text" default="%d-%m-%Y"  label="Date format" size="50" description="Express a date print using" />
+			<param name="tipologia" type="text"  label="DjfAppend - type" size="50" description="Djfappend - Type" />						
+			<param name="valore" type="text"  label="DjfAppend - value" size="50" description="Djfappend - Value"  />
+			<param name="year" type="text" label="Djf Append - Year" size="50" description="Group by Year" />
+			<param name="group_year" type="radio" default="0" label="Group by Year" description="Group by Year">
+      				<option value="1">Yes</option>
+      				<option value="0">No</option>
+    		</param>
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="l_id" type="text"  label="id" size="50" description="Label of column Id" />		
+			<param name="l_id_size" type="text"  label="l_id%" size="50" description="CSS width of column Id%" />						
+			<param name="l_title" type="text" default="Title" label="title" size="50" description="Label of column title" />
+			<param name="l_title_size" type="text"  label="title%" size="50" description="CSS width of column title%" />
+			<param name="l_introtext" type="text"  label="introtext" size="50" description="Label of column introtext" />
+			<param name="l_introtext_size" type="text"  label="introtext%" size="50" description="CSS width of column introtext%" />
+			<param name="maxchars_introtext" type="text"  label="maxchars_introtext" default="100" size="50" description="maxchars_introtext" />
+			<param name="l_state" type="text"  label="state" size="50" description="Label of column state" />
+			<param name="l_state_size" type="text"  label="state%" size="50" description="CSS width of column state%" />
+			<param name="l_sec" type="text"  label="section" size="50" description="Label of column section" />						
+			<param name="l_sec_size" type="text"  label="section%" size="50" description="CSS width of column section%" />
+			<param name="l_cat" type="text"  label="category" size="50" description="Label of column category" />
+			<param name="l_cat_size" type="text"  label="category%" size="50" description="CSS width of column category%" />
+			<param name="l_created" type="text"  label="created" size="50" description="Label of column created" />
+			<param name="l_created_size" type="text"  label="created%" size="50" description="CSS width of column created%" />
+			<param name="l_created_by" type="text"  label="created_by" size="50" description="Label of column created_by" />
+			<param name="l_created_by_size" type="text"  label="created_by%" size="50" description="CSS width of column created_by%" />
+			<param name="l_modified" type="text"  label="modified" size="50" description="Label of column modified" />
+			<param name="l_modified_size" type="text"  label="modified%" size="50" description="CSS width of column modified%" />
+			<param name="l_modified_by" type="text"  label="modified_by" size="50" description="Label of column modified_by" />
+			<param name="l_modified_by_size" type="text"  label="modified_by%" size="50" description="CSS width of column modified_by%" />
+			<param name="l_version" type="text"  label="version" size="50" description="Label of column version" />
+			<param name="l_version_size" type="text"  label="version%" size="50" description="CSS width of column version%" />
+			<param name="l_hits" type="text" label="hits" size="50" description="Label of column hits" />
+			<param name="l_hits_size" type="text" label="hits%" size="50" description="CSS width of column hits%" />
+			<param name="l_tipologia" type="text" label="DjfAppend - ltype" size="50" description="Label of column djfappend - ltype" />
+			<param name="l_tipologia_size" type="text" label="DjfAppend - ltype %" size="50" description="CSS width of column djfappend - ltype%" />
+			<param name="l_valore" type="text" label="DjfAppend - lvalue" size="50" description="Label of column djfappend - lvalue" />
+			<param name="l_valore_size" type="text" label="DjfAppend - lvalue %" size="50" description="CSS width of column djfappend - lvalue%" />
+			<param name="l_event_date" type="text"  label="DjfAppend - l_event_date" size="50" description="Label of column DjfAppend - l_event_date" />
+			<param name="l_event_date_size" type="text"  label="DjfAppend - l_event_date_size%" size="50" description="CSS width of column DjfAppend - l_event_date_size%" />
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+		</params>
+	</state>
+</metadata>

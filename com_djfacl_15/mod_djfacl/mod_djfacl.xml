@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<install version="1.5" type="module" client="site">
+<name>Mod Djf Acl</name>
+<author>David Frassi</author>
+<authorEmail>info@davidfrassi.it</authorEmail>
+<authorUrl>http://www.davidfrassi.it</authorUrl>
+<creationDate>Novembre 2010</creationDate>
+<copyright>Copyright Notice</copyright>
+<license>Module License Agreement</license>
+<version>2.0</version>
+<description>
+Replaces the existent module with a module mapped in com_djfacl policy access control.
+Instruction:
+1) Choose the module you want to protect. Assign Access Level "djfacl"
+2) Active mod_djfacl on the same block the other module
+3) Assign the module visible for user or group in com_djfacl
+</description>
+<files>
+<filename module="mod_djfacl">mod_djfacl.php</filename>
+<filename>index.html</filename>
+<filename>helper.php</filename>
+<filename>mod_djfacl.xml</filename>
+<filename>tmpl/default.php</filename>
+<filename>tmpl/index.html</filename>
+</files>
+<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+	</params>
+</install>

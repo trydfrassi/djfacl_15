@@ -1,0 +1,107 @@
+/**
+* @version $Id: component.css 10387 2008-06-03 10:59:16Z pasamio $
+* @copyright Copyright (C) 2005 - 2006 Open Source Matters. All rights reserved.
+* @license GNU/GPL, see LICENSE.php
+* Joomla! is free software. This version may have been modified pursuant
+* to the GNU General Public License, and as distributed it includes or
+* is derivative of works licensed under the GNU General Public License or
+* other free or open source software licenses.
+* See COPYRIGHT.php for copyright notices and details.
+*/
+
+/**
+ * Joomla! 1.5 Admin template main css file
+ *
+ * @author		Andy Miller <andy.miller@joomla.org>
+ * @package		Joomla
+ * @since		1.5
+ * @version    1.0
+ */
+
+/* -- General styles ------------------------------ */
+
+
+.text_row {
+	width:194px;
+}
+.calendar_row {
+	width:176px;
+	height:14px;
+}
+.calendar{
+	vertical-align:bottom;
+}
+.list_row {
+	width:197px;
+	position:relative;
+}
+.list_row select:focus{
+    width:197px;
+}
+.list_row select{
+    width:197px;
+}
+
+.radio_row {
+}
+.checkbox_row {
+}
+.editor_row {
+	width:100%;
+}
+.key2 {
+	text-align:right;
+	background-color: #f6f6f6;
+	width: 160px;
+	color: #666;
+	font-weight: bold;
+	border-bottom: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9;
+}
+.preloader {
+	position:relative;
+	margin-left:197px;
+	
+	
+}
+
+.search-external-box{
+	width:600px;
+}
+
+
+.search-label {
+	width:100px;
+}
+
+.search-field {
+	float:left;
+	margin-bottom:15px;
+	
+	
+}
+
+.search-button-go {
+	float:left;
+	margin-bottom:10px;
+	padding:0;
+	margin:0;
+}
+.search-button-reset {
+	float:left;
+	margin-bottom:10px;
+	padding:0;
+	margin:0;
+	height:2px;
+	
+}
+.search-external-box button{
+	height:22px;
+}
+.search-external-box input{
+	height:16px;
+	padding-top:2px;
+}
+
+
+

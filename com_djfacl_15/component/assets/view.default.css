@@ -1,0 +1,332 @@
+/** menu icons **/
+.icon-16-archive 		{ background-image: url(../images/menu/icon-16-archive.png); }
+.icon-16-article 		{ background-image: url(../images/menu/icon-16-article.png); }
+.icon-16-category 	{ background-image: url(../images/menu/icon-16-category.png); }
+.icon-16-checkin 		{ background-image: url(../images/menu/icon-16-checkin.png); }
+.icon-16-component	{ background-image: url(../images/menu/icon-16-component.png); }
+.icon-16-config 		{ background-image: url(../images/menu/icon-16-config.png); }
+.icon-16-content 		{ background-image: url(../images/menu/icon-16-content.png); }
+.icon-16-cpanel 		{ background-image: url(../images/menu/icon-16-cpanel.png); }
+.icon-16-default 		{ background-image: url(../images/menu/icon-16-default.png); }
+.icon-16-frontpage 	{ background-image: url(../images/menu/icon-16-frontpage.png); }
+.icon-16-help			{ background-image: url(../images/menu/icon-16-help.png); }
+.icon-16-info 			{ background-image: url(../images/menu/icon-16-info.png); }
+.icon-16-install 		{ background-image: url(../images/menu/icon-16-install.png);}
+.icon-16-language 	{ background-image: url(../images/menu/icon-16-language.png);}
+.icon-16-logout 		{ background-image: url(../images/menu/icon-16-logout.png);}
+.icon-16-massmail 	{ background-image: url(../images/menu/icon-16-massmail.png); }
+.icon-16-media 		{ background-image: url(../images/menu/icon-16-media.png);}
+.icon-16-menu 			{ background-image: url(../images/menu/icon-16-menu.png); }
+.icon-16-menumgr 		{ background-image: url(../images/menu/icon-16-menumgr.png); }
+.icon-16-messages 	{ background-image: url(../images/menu/icon-16-messages.png); }
+.icon-16-module 		{ background-image: url(../images/menu/icon-16-module.png); }
+.icon-16-plugin 		{ background-image: url(../images/menu/icon-16-plugin.png); }
+.icon-16-section 		{ background-image: url(../images/menu/icon-16-section.png); }
+.icon-16-static 		{ background-image: url(../images/menu/icon-16-static.png); }
+.icon-16-stats 		{ background-image: url(../images/menu/icon-16-stats.png); }
+.icon-16-themes 		{ background-image: url(../images/menu/icon-16-themes.png); }
+.icon-16-trash 		{ background-image: url(../images/menu/icon-16-trash.png); }
+.icon-16-user 			{ background-image: url(../images/menu/icon-16-user.png); }
+.icon-16-excel			{ background-image: url(../images/toolbar/icon-48-excel.gif); }
+
+
+/** toolbar icons **/
+.icon-32-send 			{ background-image: url(../images/toolbar/icon-32-send.png); }
+.icon-32-refresh-data		{ background-image: url(components/com_owlie/assets/images/toolbar/icon-32-refresh-data.png); }
+.icon-32-delete 		{ background-image: url(../images/toolbar/icon-32-delete.png); }
+.icon-32-help 			{ background-image: url(../images/toolbar/icon-32-help.png); }
+.icon-32-cancel 		{ background-image: url(../images/toolbar/icon-32-cancel.png); }
+.icon-32-config 		{ background-image: url(../images/toolbar/icon-32-config.png); }
+.icon-32-apply 		{ background-image: url(../images/toolbar/icon-32-apply.png); }
+.icon-32-back			{ background-image: url(../images/toolbar/icon-32-back.png); }
+.icon-32-forward		{ background-image: url(../images/toolbar/icon-32-forward.png); }
+.icon-32-save 			{ background-image: url(../images/toolbar/icon-32-save.png); }
+.icon-32-edit 			{ background-image: url(../images/toolbar/icon-32-edit.png); }
+.icon-32-copy 			{ background-image: url(../images/toolbar/icon-32-copy.png); }
+.icon-32-move 			{ background-image: url(../images/toolbar/icon-32-move.png); }
+.icon-32-new 			{ background-image: url(components/com_owlie/assets/images/toolbar/icon-32-new.png); }
+.icon-32-upload 		{ background-image: url(../images/toolbar/icon-32-upload.png); }
+.icon-32-assign 		{ background-image: url(../images/toolbar/icon-32-publish.png); }
+.icon-32-html 			{ background-image: url(../images/toolbar/icon-32-html.png); }
+.icon-32-css 			{ background-image: url(../images/toolbar/icon-32-css.png); }
+.icon-32-menus 			{ background-image: url(../images/toolbar/icon-32-menu.png); }
+.icon-32-publish 		{ background-image: url(../images/toolbar/icon-32-publish.png); }
+.icon-32-unpublish 	{ background-image: url(../images/toolbar/icon-32-unpublish.png);}
+.icon-32-restore		{ background-image: url(../images/toolbar/icon-32-revert.png); }
+.icon-32-trash 		{ background-image: url(../images/toolbar/icon-32-trash.png); }
+.icon-32-archive 		{ background-image: url(../images/toolbar/icon-32-archive.png); }
+.icon-32-unarchive 	{ background-image: url(../images/toolbar/icon-32-unarchive.png); }
+.icon-32-preview 		{ background-image: url(../images/toolbar/icon-32-preview.png); }
+.icon-32-default 		{ background-image: url(../images/toolbar/icon-32-default.png); }
+.icon-32-excel			{ background-image: url(../images/toolbar/icon-48-excel.gif); }
+
+/** header icons **/
+.icon-48-generic 		{ background-image: url(../images/header/icon-48-generic.png); }
+.icon-48-checkin 		{ background-image: url(../images/header/icon-48-checkin.png); }
+.icon-48-cpanel 		{ background-image: url(../images/header/icon-48-cpanel.png); }
+.icon-48-config 		{ background-image: url(../images/header/icon-48-config.png); }
+.icon-48-module 		{ background-image: url(../images/header/icon-48-module.png); }
+.icon-48-menu 			{ background-image: url(../images/header/icon-48-menu.png); }
+.icon-48-menumgr 		{ background-image: url(../images/header/icon-48-menumgr.png); }
+.icon-48-trash 		{ background-image: url(../images/header/icon-48-trash.png); }
+.icon-48-user	 		{ background-image: url(../images/header/icon-48-user.png); }
+.icon-48-inbox 		{ background-image: url(../images/header/icon-48-inbox.png); }
+.icon-48-msgconfig 	{ background-image: url(../images/header/icon-48-message_config.png); }
+.icon-48-langmanager { background-image: url(../images/header/icon-48-language.png); }
+.icon-48-mediamanager{ background-image: url(../images/header/icon-48-media.png); }
+.icon-48-plugin 	{ background-image: url(../images/header/icon-48-plugin.png); }
+.icon-48-help_header { background-image: url(../images/header/icon-48-help_header.png); }
+.icon-48-impressions { background-image: url(../images/header/icon-48-stats.png); }
+.icon-48-browser 		{ background-image: url(../images/header/icon-48-stats.png); }
+.icon-48-searchtext 	{ background-image: url(../images/header/icon-48-stats.png); }
+.icon-48-thememanager{ background-image: url(../images/header/icon-48-themes.png); }
+.icon-48-massemail 	{ background-image: url(../images/header/icon-48-massemail.png); }
+.icon-48-frontpage 	{ background-image: url(../images/header/icon-48-frontpage.png); }
+.icon-48-sections 	{ background-image: url(../images/header/icon-48-section.png); }
+.icon-48-addedit 		{ background-image: url(../images/header/icon-48-article-add.png); }
+.icon-48-article 		{ background-image: url(../images/header/icon-48-article.png); }
+.icon-48-categories 	{ background-image: url(../images/header/icon-48-category.png); }
+.icon-48-install 		{ background-image: url(../images/header/icon-48-extension.png); }
+.icon-48-dbbackup		{ background-image: url(../images/header/icon-48-backup.png); }
+.icon-48-dbrestore 	{ background-image: url(../images/header/icon-48-dbrestore.png); }
+.icon-48-dbquery 		{ background-image: url(../images/header/icon-48-query.png); }
+.icon-48-systeminfo 	{ background-image: url(../images/header/icon-48-info.png); }
+.icon-48-massemail 	{ background-image: url(../images/header/icon-48-massmail.png); }
+.icon-48-excel			{ background-image: url(../images/toolbar/icon-48-excel.gif); }
+
+
+
+#catalogue-header h3 {
+	position: relative
+	float: left;
+	width: 100%;
+	font-size: 110%;
+	background-color: rgb(195, 226, 255);
+/* top, right, bottom, left  padding: 0.3em 0 0.3em 0.2em; */	
+	margin: 0 0 0 0;
+	padding: 0.6em 8.8em 0.3em 0.8em;
+	border-width: 1px;
+	border-style: solid solid solid solid;
+	display: inline;
+	border-color: rgb(102, 153, 204);
+}	
+
+#catalogue {
+/*	margin-top: 1.4em; #catalogue p, ul, h2, h3, h4  */
+	width: 400px;
+	float: left !important;
+float
+/**/
+	: none;
+	height: auto
+}
+
+#catalogue p, ul {
+	margin: 0;
+	padding: 0
+}
+
+#catalogue li {
+	list-style-type: none
+}
+
+#catalogue #alphabet {  
+	height: 2.2em;
+	_height: auto;
+	clear: auto;
+	_clear: both;
+	float: left !important;
+	float: none;
+	border-left: 1px solid #ECECEC;
+	border-top: 1px solid #fff;
+	padding: 8px 0 0 9px
+}
+
+#catalogue #alphabet li {
+  
+	float: left;
+	margin: 0 3px 0 2px
+}
+
+#catalogue #alphabet li.selected span {
+	height: auto !important;
+	height: 1px;
+	z-index: 99;
+	display: block;
+	_display: inline;
+	padding-bottom: 9px !important;
+	padding-bottom: 7px;
+	background: url(../images/country_arrow.png) bottom center no-repeat
+
+}
+#catalogue #alphabet li.selected a {
+	height: auto !important;
+	height: 1px;
+	z-index: 9;
+	border: 1px solid #C6C661;
+	border-bottom: none;
+	padding: 2px 4px;
+	background-color: #F4F4C1;
+	text-decoration: none;
+	color: #000
+}
+
+#catalogue #alphabet li.selected {
+	margin: 0;
+	font-weight: bold;
+	padding: 3px 0 0 0 !important;
+	padding: 3px 0 9px 0;
+padding
+/**/
+	: 0;
+	position: relative;
+	top: -3px
+}
+
+
+#catal-cont {
+	background: repeat-y 0 0;
+	clear: both;
+	float: left
+}
+
+#catalogue .ABCCatalog {
+	background-image: url(../images/cat_abc_bck.gif)
+}
+
+#catalogue .ABCCatalog ul {
+	width: 133px;
+	float: left;
+	overflow: hidden;
+	line-height: 18px
+}
+
+#catalogue #catal-cont li {
+	font-size: 100%;
+	text-indent: 0 !important;
+text-indent
+/**/
+	: -15px;
+	list-style-type: none;
+	padding: 0 0 0 9px
+}
+
+.clear {
+	clear: both;
+	overflow: hidden;
+	height: 1px
+}
+
+.hr-line {
+	clear: both;
+	padding-top: 0.6em;
+	padding-right: 0pt;
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+	text-align: center;
+	color: #999999;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #ececec;
+}
+
+#hw-content {
+	clear: both;
+	font-family: Tahoma, Palatino;
+	text-align: center;
+	font-weight: bold;
+	/*margin: 0 12px;*/
+	margin: 1em 1em 1em 1em;
+	line-height: 1.5;	
+}
+
+#hw-content a {	
+	margin: 5px;
+	white-space: nowrap;
+	text-decoration: none;
+	color: #13375E;
+}
+
+#hw-content a:hover {
+	color: #B9151C;
+	text-decoration: underline
+}
+
+#hwlinks { 	clear: both;
+	font-family: Tahoma, Palatino;
+	text-align: center;
+	line-height: 1.6;	}
+
+#hwlinks h1 {font-size: 280%;  display: inline; color: #13375E; font-weight: normal;}
+#hwlinks h2 {font-size: 200%;	 display: inline; color: #13375E; font-weight: normal;}
+#hwlinks h3 {font-size: 170%;	 display: inline; color: #13375E; font-weight: normal;}
+#hwlinks h4 {font-size: 150%;	 display: inline; color: #13375E; font-weight: normal;}
+#hwlinks h5 {font-size: 120%;	 display: inline; color: #13375E; font-weight: normal;}
+#hwlinks h6 {font-size: 100%;	 display: inline; color: #13375E; font-weight: normal;}
+
+
+#column-right 
+
+{
+display: block;
+width: 464px;
+
+}
+
+
+/*-------- letters ----------------*/
+#letters{
+	margin: 0 0 0 7px;
+}
+
+#letters a{
+	display: block;
+	float: left;
+	width: 17px;
+	padding: 1px 5px;
+	margin: 0 2px 2px 0;
+	text-align: center;
+	border: solid 1px #4796f7;
+	color : #0000dd;
+}
+
+#letters a.all {
+	width: 48px;
+}
+
+#letters a:hover, #letters a.selected{
+	background-color: #ccccff;
+}
+
+
+#slide-form {
+	;background: #222;
+	background: #135cae;
+	display: block;
+	color: #fff;
+	padding: 10px;
+	margin: 20px;
+	border: 10px solid #c3e2ff;
+	height: 40px;
+} 
+
+/*-------- basic html controls--------*/
+input, select {
+	font-size: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: silver;
+	border-right-color: silver;
+	border-bottom-color: silver;
+	border-left-color: silver;
+}
+
+input:focus, select:focus, textarea:focus {
+	background-color: rgb(255, 255, 221);
+

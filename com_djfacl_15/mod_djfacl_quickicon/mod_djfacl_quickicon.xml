@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: mod_djfacl_quickicon.xm_ 107 2009-09-11 08:24:33Z michael $ -->
+<install type="module" version="1.5.0" client="administrator">
+	<name>CustomQuickIcons</name>
+	<author>David Frassi</author>
+	<creationDate>Novembre 2010</creationDate>
+	<copyright>Copyright (C) 2010 - All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@davidfrassi.it</authorEmail>
+	<authorUrl>www.davidfrassi.it</authorUrl>
+	<version>1.0</version>
+	<description>Module description</description>
+
+	<files>
+    	<filename module="mod_djfacl_quickicon">mod_djfacl_quickicon.php</filename>
+    	<filename>cqi.css</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_djfacl_quickicon.ini</language>
+		<language tag="de-DE">language/de-DE/de-DE.mod_djfacl_quickicon.ini</language>
+	</languages>
+
+	<params>
+		<param type="spacer" default="(c) 2009 www.joomaax.com" />
+		<param type="radio" name="cache" default="1" label="Cache" description="Cache description">
+		    <option value="1">Use global</option>
+		    <option value="0">No</option>
+    	</param>
+		<param name="css" type="radio" default="0" label="CSS Class" description="CSS Description">
+			<option value="1">Yes</option>
+		    <option value="0">Use global</option>
+		</param>
+	</params>
+	<params group="advanced">
+		<param type="radio"
+			name="user_access"
+			label="User access"
+			description="Show user icons"
+			default="1">
+			<option value="1">Yes</option>
+		    <option value="0">No</option>
+		</param>
+	</params>
+</install>

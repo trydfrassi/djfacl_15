@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.3">
+	<name>Djf Acl</name>
+	<creationDate>August 2011</creationDate>
+	<author>David Frassi</author>
+	<authorEmail>info@davidfrassi.it</authorEmail>
+	<authorUrl>http://www.davidfrassi.it</authorUrl>
+	<copyright>(C) 2009-2010 All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<version>1.5.1 beta</version>
+<!-- oltre a definire questi parametri nel file config.xml è necessario specificarli anche qui
+se si vuole che vengano inseriti la prima volta nella tabella #__djfacl_components -->
+	<params>
+		<param name="credits" default="yes"/>
+	</params>
+	
+	<!-- database section -->
+	
+	<install>
+		<sql folder="admin/sql">
+			<file driver="mysql" charset="utf8">install.djfacl.sql</file>
+		</sql>
+	</install>
+	
+	<uninstall>
+		<sql folder="admin/sql">
+			<file driver="mysql" charset="utf8">uninstall.djfacl.sql</file>
+		</sql>
+	</uninstall>
+	
+	<installfile>install.djfacl.php</installfile>
+	<uninstallfile>uninstall.djfacl.php</uninstallfile>
+	
+	<files folder="component">
+			<filename>djfacl.php</filename>
+			<filename>router.php</filename>
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>images</folder>
+			<folder>libraries</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+	</files>
+		
+		<languages folder="component/lang">
+			<language tag="it-IT">it-IT.com_djfacl.ini</language>
+			<language tag="en-GB">en-GB.com_djfacl.ini</language>
+			</languages>
+	<plugins>
+
+		<plugin plugin="djflibraries" group="system" order="3">
+			<files folder="djflibraries">
+				<file>djflibraries.xml</file>
+				<folder>djflibraries</folder>
+			</files>
+		</plugin>
+
+		<plugin plugin="djfcontent" group="content" order="2">
+			<files folder="plg_djfcontent">
+				<file>djfcontent.php</file>
+				<file>djfcontent.xml</file>
+			</files>			
+		</plugin>
+		<plugin plugin="djfacl" group="system" order="1">
+			<files folder="plg_djfacl">
+				<file>djfacl.php</file>
+				<file>djfacl.xml</file>
+			</files>
+		</plugin>
+		<plugin plugin="djfintegrity" group="system" order="1">
+			<files folder="plg_djfintegrity">
+				<file>djfintegrity.php</file>
+				<file>djfintegrity.xml</file>
+			</files>
+		</plugin>
+	</plugins>
+	
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu img="components/com_djfacl/images/com_djfacl_small.png">Djf Acl</menu>
+		<submenu>
+			<!-- Note that all & must be escaped to &amp; for the file to be valid XML and be parsed by the installer -->
+			<menu img="components/com_djfacl/assets/images/header/icon-16-djfacl.png" link="option=com_djfacl&amp;controller=cpanel">PANNELLO</menu>
+			<menu img="components/com_djfacl/assets/images/header/icon-16-tree.png" link="option=com_djfacl&amp;controller=gruppi">GRUPPI</menu>
+			<menu img="components/com_djfacl/assets/images/header/icon-16-groups.png" link="option=com_djfacl&amp;controller=gruppi_utenti">GRUPPI_UTENTI</menu>
+			<menu img="components/com_djfacl/assets/images/header/icon-16-content.png" link="option=com_djfacl&amp;controller=contenuti">CONTENUTI</menu>
+			<menu img="components/com_djfacl/assets/images/header/icon-16-css.png" link="option=com_djfacl&amp;controller=cssblock">CSSBLOCK</menu>
+			<menu img="components/com_djfacl/assets/images/header/icon-16-application.png" link="option=com_djfacl&amp;controller=jtask">TASK</menu>
+			<menu img="components/com_djfacl/assets/images/header/icon-16-icon-groups.png" link="option=com_djfacl&amp;controller=gruppi_icone">ICON-GROUPS</menu>
+			<menu img="components/com_djfacl/assets/images/header/icon-16-icon.png" link="option=com_djfacl&amp;controller=icon">ICON</menu>
+			<menu img="components/com_djfacl/assets/images/header/icon-16-loader.png" link="option=com_djfacl&amp;controller=loader">LOADER</menu>
+			
+			
+		</submenu>
+		
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder   
+		 to copy FROM in the package to install therefore files copied   
+		  in this section are copied from /admin/ in the package -->
+	
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>config.xml</filename>
+			<filename>admin.djfacl.php</filename>		
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>images</folder>
+			<folder>libraries</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+		</files>
+		
+		<files folder="admin/sql">
+			<!-- database script -->
+			<filename>install.djfacl.sql</filename>
+			<filename>uninstall.djfacl.sql</filename>
+		</files>
+		
+		<!-- Administration Language File Copy Section -->
+		<languages folder="admin/lang">
+			<language tag="it-IT">it-IT.com_djfacl.ini</language>
+			<language tag="en-GB">en-GB.com_djfacl.ini</language>
+			<language tag="it-IT">it-IT.com_djfacl.menu.ini</language>
+			<language tag="en-GB">en-GB.com_djfacl.menu.ini</language>			
+		</languages>
+		
+	</administration>
+	
+	<modules>
+		<module module="mod_djfacl" title="Djf Acl Module" position="left" order="0" client="site">
+			<files folder="mod_djfacl">
+				<file>helper.php</file>
+				<file>mod_djfacl.xml</file>
+				<file>mod_djfacl.php</file>
+				<file>index.html</file>
+			</files>
+		</module>	
+			
+		<module module="mod_djfacl_quickicon" title="Djf Acl Quick Icons" position="icon" order="0" client="administrator">
+			<files folder="mod_djfacl_quickicon">
+		    	<file>mod_djfacl_quickicon.php</file>
+		    	<file>mod_djfacl_quickicon.xml</file>
+    			<file>cqi.css</file>
+			</files>
+		</module>		
+		
+	</modules>
+	
+	
+</install>

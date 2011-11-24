@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="credits" type="text" default="yes" label="djfacl: credits" size="50" description="djfacl: credits" />
+	</params>
+</config>
+<!-- in questo file ci stanno i parametri che vengono visualizzati come una finestra di popup nel 
+componente -->

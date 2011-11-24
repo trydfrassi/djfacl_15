@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - djfacl</name>
+	<author>David Frassi</author>
+	<creationDate>Dicembre 2010</creationDate>
+	<copyright>Copyright (C) 2010 - All rights reserved.</copyright>
+	<license>GNU General Public License</license>
+	<authorEmail>info@davidfrassi.it</authorEmail>
+	<authorUrl>http://www.davidfrassi.it</authorUrl>
+	<version>3.3</version>
+	<description>djfacl</description>
+	<files>
+		<filename plugin="djfacl">djfacl.php</filename>
+	</files>
+	<params>
+		<param name="category_check" type="radio" default="0" description="Impedisce la creazione di nuovi articoli per cui non viene passata la relativa cateogoria di appartenenza" label="Hide New Article on Category List">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+			<param name="back_link" type="radio" default="0" description="Visualizza il link back prima della home sul breadcrumbs" label="Show back link before the breadcrumbs">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="css_block_frontend" type="radio" default="0" description="Visualizza tutte o nascondi tutte le icone edit per gli articoli in frontpage" label="Show or hide all the css block in Frontpage or pages without explicit category or section">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	
+	</params>
+</install>
